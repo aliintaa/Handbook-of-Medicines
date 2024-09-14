@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HandbookOfMedicines.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace HandbookOfMedicines
         public MainWindow()
         {
             InitializeComponent();
+            frame.Navigate(new HumanPage());
         }
     }
 }

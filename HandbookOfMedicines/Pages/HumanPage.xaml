@@ -9,7 +9,7 @@
       Title="HumanPage">
 
     <Grid>
-        <Image Height="700" Width="300" Source="Images/maket.jpg"></Image>
+        <Image Height="700" Width="300" Source="../Resources/maket.jpg"></Image>
         <TextBlock>макет человека</TextBlock>
     </Grid>
 </Page>
